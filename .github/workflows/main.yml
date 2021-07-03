@@ -39,4 +39,4 @@ jobs:
           push: true
           tags: |
             rafhaelpc/rotten-potatoes:latest
-            rafhaelpc/rotten-potatoes: ${{ github.run_number }}
+            rafhaelpc/rotten-potatoes:v${{ github.run_number }}
